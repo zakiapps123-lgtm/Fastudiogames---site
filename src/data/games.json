@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "name": "Neon Racer",
+    "shortDescription": "High-octane cyberpunk racing game with intense drifting.",
+    "fullDescription": "Experience the thrill of neon-lit streets in Neon Racer. Customize your car, master the art of drifting, and dominate the underground racing scene in this adrenaline-pumping mobile game.",
+    "features": [
+      "Cyberpunk aesthetics",
+      "10+ customizable cars",
+      "Global leaderboards",
+      "Intense drift mechanics"
+    ],
+    "image": "/images/neon-racer.jpg",
+    "banner": "/images/neon-racer-banner.jpg",
+    "screenshots": [
+      "/images/neon-racer-ss1.jpg",
+      "/images/neon-racer-ss2.jpg"
+    ],
+    "rating": 4.8,
+    "amazonLink": "https://www.amazon.com/dp/B000000000"
+  },
+  {
+    "id": "2",
+    "name": "Galaxy Defender",
+    "shortDescription": "Defend the milky way against alien invaders in this modern arcade shooter.",
+    "fullDescription": "Galaxy Defender brings back the golden age of arcade shooters with a modern twist. Upgrade your ship, unlock devastating weapons, and blast your way through waves of alien spacecraft to save the galaxy.",
+    "features": [
+      "Retro arcade feel",
+      "Epic boss battles",
+      "50 challenging levels",
+      "Ship upgrades"
+    ],
+    "image": "/images/galaxy-defender.jpg",
+    "banner": "/images/galaxy-defender-banner.jpg",
+    "screenshots": [
+      "/images/galaxy-defender-ss1.jpg",
+      "/images/galaxy-defender-ss2.jpg"
+    ],
+    "rating": 4.5,
+    "amazonLink": "https://www.amazon.com/dp/B000000001"
+  },
+  {
+    "id": "3",
+    "name": "Mystic Quest",
+    "shortDescription": "Epic RPG adventure in a fantasy realm filled with magic and monsters.",
+    "fullDescription": "Embark on an unforgettable journey in Mystic Quest. Explore vast open worlds, battle fearsome monsters, and uncover the secrets of ancient magic in this fully-featured mobile RPG.",
+    "features": [
+      "Open world exploration",
+      "Deep turn-based combat",
+      "Hundreds of items",
+      "Engaging storyline"
+    ],
+    "image": "/images/mystic-quest.jpg",
+    "banner": "/images/mystic-quest-banner.jpg",
+    "screenshots": [
+      "/images/mystic-quest-ss1.jpg",
+      "/images/mystic-quest-ss2.jpg"
+    ],
+    "rating": 4.9,
+    "amazonLink": "https://www.amazon.com/dp/B000000002"
+  }
+]
