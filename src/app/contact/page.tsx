@@ -18,7 +18,7 @@ export default function ContactPage() {
       </div>
 
       <div className="bg-gray-900 border border-gray-800 rounded-3xl p-8 md:p-12 shadow-2xl">
-        <form className="space-y-6">
+        <form action="https://formspree.io/f/xojkolgz" method="POST" className="space-y-6">
           <div className="grid grid-cols-1 gap-y-6 gap-x-8 sm:grid-cols-2">
             <div>
               <label htmlFor="first-name" className="block text-sm font-medium text-gray-300">
@@ -27,9 +27,10 @@ export default function ContactPage() {
               <div className="mt-2">
                 <input
                   type="text"
-                  name="first-name"
+                  name="firstName"
                   id="first-name"
                   autoComplete="given-name"
+                  required
                   className="block w-full rounded-xl border-0 bg-gray-950 py-3 px-4 text-white shadow-sm ring-1 ring-inset ring-gray-800 focus:ring-2 focus:ring-inset focus:ring-purple-500 sm:text-sm sm:leading-6 transition-all"
                 />
               </div>
@@ -41,9 +42,10 @@ export default function ContactPage() {
               <div className="mt-2">
                 <input
                   type="text"
-                  name="last-name"
+                  name="lastName"
                   id="last-name"
                   autoComplete="family-name"
+                  required
                   className="block w-full rounded-xl border-0 bg-gray-950 py-3 px-4 text-white shadow-sm ring-1 ring-inset ring-gray-800 focus:ring-2 focus:ring-inset focus:ring-purple-500 sm:text-sm sm:leading-6 transition-all"
                 />
               </div>
@@ -58,6 +60,7 @@ export default function ContactPage() {
                   name="email"
                   type="email"
                   autoComplete="email"
+                  required
                   className="block w-full rounded-xl border-0 bg-gray-950 py-3 px-4 text-white shadow-sm ring-1 ring-inset ring-gray-800 focus:ring-2 focus:ring-inset focus:ring-purple-500 sm:text-sm sm:leading-6 transition-all"
                 />
               </div>
@@ -71,6 +74,7 @@ export default function ContactPage() {
                   id="message"
                   name="message"
                   rows={4}
+                  required
                   className="block w-full rounded-xl border-0 bg-gray-950 py-3 px-4 text-white shadow-sm ring-1 ring-inset ring-gray-800 focus:ring-2 focus:ring-inset focus:ring-purple-500 sm:text-sm sm:leading-6 transition-all"
                   defaultValue={''}
                 />
@@ -79,7 +83,7 @@ export default function ContactPage() {
           </div>
           <div className="mt-10">
             <button
-              type="button"
+              type="submit"
               className="block w-full rounded-xl bg-gradient-to-r from-purple-500 to-pink-500 px-3.5 py-4 text-center text-sm font-semibold text-white shadow-lg hover:from-purple-400 hover:to-pink-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-500 transition-all duration-300 hover:-translate-y-1 transform"
             >
               Send Message
