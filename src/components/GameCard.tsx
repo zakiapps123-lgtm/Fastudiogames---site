@@ -33,9 +33,7 @@ export default function GameCard({ game }: { game: Game }) {
       </div>
       <div className="p-6 relative z-20 flex flex-col h-full bg-gradient-to-t from-gray-900 via-gray-900/90 to-transparent">
         <h3 className="text-2xl font-bold text-white mb-2">{game.name}</h3>
-        <div className="flex items-center gap-1 mb-4">
-          <span className="text-yellow-400 text-sm font-bold">★ {game.rating}</span>
-        </div>
+
         <p className="text-gray-400 mb-6 flex-grow">{game.shortDescription}</p>
         <div className="flex flex-col gap-3">
           <div className="inline-flex w-full justify-center items-center gap-2 py-3 px-4 bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-400 hover:to-amber-400 text-white font-bold rounded-xl shadow-lg transition-all duration-200">

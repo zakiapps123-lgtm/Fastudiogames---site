@@ -38,9 +38,7 @@ export default function GameDetailsPage({ params }: { params: { id: string } }) 
         </div>
         {/* Real banner image placeholder */}
         <div className="absolute inset-x-0 bottom-0 p-8 z-20 max-w-7xl mx-auto flex flex-col items-start w-full">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-yellow-500/20 text-yellow-400 border border-yellow-500/30 mb-4 text-sm font-bold shadow-[0_0_15px_rgba(234,179,8,0.2)]">
-            ★ {game.rating} / 5.0
-          </div>
+
           <h1 className="text-5xl md:text-7xl font-extrabold text-white mb-4 drop-shadow-lg">
             {game.name}
           </h1>
